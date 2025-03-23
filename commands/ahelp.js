@@ -19,11 +19,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .alive
 ║ ➤ .tts <text>
 ║ ➤ .owner
-║ ➤ .joke
-║ ➤ .quote
-║ ➤ .fact
 ║ ➤ .weather <city>
-║ ➤ .news
 ║ ➤ .attp <text>
 ║ ➤ .groupinfo
 ║ ➤ .staff or .admins 
