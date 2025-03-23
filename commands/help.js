@@ -76,14 +76,6 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🎯 *Fun Commands*:
-║ ➤ .compliment @user
-║ ➤ .insult @user
-║ ➤ .flirt 
-║ ➤ .character @user
-╚═══════════════════╝
-
-╔═══════════════════╗
 🎯 *Downloader*:
 ║ ➤ .play <song_name>
 ║ ➤ .song <song_name>
