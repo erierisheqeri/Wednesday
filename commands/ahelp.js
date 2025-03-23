@@ -5,16 +5,15 @@ const path = require('path');
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'KnightBot-MD'}*  
+   *🤖 ${settings.botName || 'Allola-WB'}*  
    Version: *${settings.version || '1.0.0'}*
-   by ${settings.botOwner || 'Mr Unique Hacker'}
-   YT : ${global.ytch}
+   by ${settings.botOwner || 'eri!'}
 ╚═══════════════════╝
 
-*Available Commands:*
+*Comandi Disponibili:*
 
 ╔═══════════════════╗
-🌐 *General Commands*:
+🌐 *Comandi Generali*:
 ║ ➤ .help or .menu
 ║ ➤ .ping
 ║ ➤ .alive
@@ -32,14 +31,14 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🎨 *Image/Sticker Commands*:
+🎨 *Comandi Immagine/Sticker*:
 ║ ➤ .simage <reply to sticker>
 ║ ➤ .sticker <reply to image>
 ║ ➤ .take <packname> 
 ╚═══════════════════╝   
 
 ╔═══════════════════╗
-🛠️ *Admin Commands*:
+🛠️ *Comandi Admin*:
 ║ ➤ .ban @user
 ║ ➤ .promote @user
 ║ ➤ .demote @user
@@ -59,7 +58,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🛠️ *Owner Commands*:
+🛠️ *Comandi Proprietario*:
 ║ ➤ .mode
 ║ ➤ .autostatus
 ║ ➤ .clearsession
@@ -71,7 +70,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .song <song_name>
 ╚═══════════════════╝
 
-Join our channel for updates:`;
+:`;
 
     try {
         const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
@@ -87,7 +86,7 @@ Join our channel for updates:`;
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD by Mr Unique Hacker',
+                        newsletterName: 'Allola-WB',
                         serverMessageId: -1
                     }
                 }
@@ -101,14 +100,14 @@ Join our channel for updates:`;
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD by Mr Unique Hacker',
+                        newsletterName: 'Allola-WB',
                         serverMessageId: -1
                     } 
                 }
             });
         }
     } catch (error) {
-        console.error('Error in help command:', error);
+        console.error('Errore nel comando di aiuto:', error);
         await sock.sendMessage(chatId, { text: helpMessage });
     }
 }
