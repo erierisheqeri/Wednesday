@@ -26,7 +26,6 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .weather <city>
 ║ ➤ .news
 ║ ➤ .attp <text>
-║ ➤ .lyrics <song_title>
 ║ ➤ .groupinfo
 ║ ➤ .staff or .admins 
 ║ ➤ .vv
@@ -37,7 +36,6 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .simage <reply to sticker>
 ║ ➤ .sticker <reply to image>
 ║ ➤ .take <packname> 
-║ ➤ .emojimix <emj1>+<emj2>
 ╚═══════════════════╝   
 
 ╔═══════════════════╗
@@ -69,7 +67,6 @@ async function helpCommand(sock, chatId, channelLink) {
 
 ╔═══════════════════╗
 🎮 *Game Commands*:
-║ ➤ .tictactoe @user
 ║ ➤ .hangman
 ║ ➤ .guess <letter>
 ║ ➤ .trivia
@@ -84,7 +81,6 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .insult @user
 ║ ➤ .flirt 
 ║ ➤ .character @user
-║ ➤ .wasted @user
 ║ ➤ .ship @user
 ╚═══════════════════╝
 
