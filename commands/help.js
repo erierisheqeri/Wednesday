@@ -81,7 +81,6 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .insult @user
 ║ ➤ .flirt 
 ║ ➤ .character @user
-║ ➤ .ship @user
 ╚═══════════════════╝
 
 ╔═══════════════════╗
