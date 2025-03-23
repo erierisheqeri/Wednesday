@@ -66,16 +66,6 @@ async function helpCommand(sock, chatId, channelLink) {
 ╚═══════════════════╝
 
 ╔═══════════════════╗
-🎮 *Game Commands*:
-║ ➤ .hangman
-║ ➤ .guess <letter>
-║ ➤ .trivia
-║ ➤ .answer <answer>
-║ ➤ .truth
-║ ➤ .dare
-╚═══════════════════╝
-
-╔═══════════════════╗
 🎯 *Downloader*:
 ║ ➤ .play <song_name>
 ║ ➤ .song <song_name>
