@@ -27,7 +27,6 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .news
 ║ ➤ .attp <text>
 ║ ➤ .lyrics <song_title>
-║ ➤ .8ball <question>
 ║ ➤ .groupinfo
 ║ ➤ .staff or .admins 
 ║ ➤ .vv
@@ -35,10 +34,8 @@ async function helpCommand(sock, chatId, channelLink) {
 
 ╔═══════════════════╗
 🎨 *Image/Sticker Commands*:
-║ ➤ .blur <image>
 ║ ➤ .simage <reply to sticker>
 ║ ➤ .sticker <reply to image>
-║ ➤ .meme
 ║ ➤ .take <packname> 
 ║ ➤ .emojimix <emj1>+<emj2>
 ╚═══════════════════╝   
