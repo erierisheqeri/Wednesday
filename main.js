@@ -34,7 +34,6 @@ const attpCommand = require('./commands/attp');
 const { clearCommand } = require('./commands/clear');
 const pingCommand = require('./commands/ping');
 const aliveCommand = require('./commands/alive');
-const blurCommand = require('./commands/img-blur');
 const welcomeCommand = require('./commands/welcome');
 const goodbyeCommand = require('./commands/goodbye');
 const { handleAntiBadwordCommand, handleBadwordDetection } = require('./lib/antibadword');
