@@ -1,0 +1,15 @@
+async function handleNewParticipant(sock, chatId, participant) {
+    try {
+        const welcomeMessage = `👋 Welcome @${participant.split("@")[0]} to the group! Enjoy your stay! 🎉`;
+        
+        await sock.sendMessage(chatId, { 
+            text: welcomeMessage, 
+            mentions: [participant] 
+        });
+        
+    } catch (error) {
+        console.error('Error sending welcome message:', error);
+    }
+}
+
+module.exports = handleNewParticipant;
